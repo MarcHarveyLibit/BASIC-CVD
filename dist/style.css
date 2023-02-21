@@ -349,7 +349,7 @@
     /**********ABOUT ME***********/
     .aboutme{
         background: #ffffff;
-        padding: 4rem 0;
+        padding: 3rem 0;
         padding-top: 10rem;
     }
     
@@ -368,6 +368,7 @@
         margin-right: 10rem;
         color: #ffa700;
         font-weight: 600;
+        font-size: 3rem;
     }
 
     .aboutme .about__text p{
@@ -376,11 +377,11 @@
         margin: 3rem 0;
     }
 
-    .aboutme .elp{
+    .aboutme .abt{
         position: relative;
     }
 
-    .aboutme .elp .pic{
+    .aboutme .abt .pic{
         position: absolute;
         top: 0px;
         opacity: .5;
@@ -400,11 +401,11 @@
             text-align: center;
             margin: 0 auto;
         }
-        .aboutme .elp{
+        .aboutme .abt{
             position: relative;
         }
    
-        .aboutme .elp .pic{
+        .aboutme .abt .pic{
             position: absolute;
             top: 0px;
             opacity: .5;
