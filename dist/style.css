@@ -401,6 +401,15 @@
         background: #2b2b2b;
         color: #ffffff;
     }
+    .bg--dark:hover{
+        background: #ffa700;
+        border: 1px solid #2b2b2b;
+    }
+
+
+
+
+
 
 
     /**********ABOUT ME***********/
@@ -517,9 +526,9 @@
         padding: 2rem;
     }
     .latest .latest__card .latest__card__text h4{
-      color: #ffa700;
-      font-weight: 600;
-      font-size: 2rem;
+        color: #ffa700;
+        font-weight: 600;
+        font-size: 2rem;
     }
     .latest .latest__card .latest__card__text p{
         margin: 3rem 0;
@@ -527,7 +536,7 @@
         font-size: 1.8rem;
     }
     .latest .latest__card .latest__card__text a{
-      color: #ffa700;
+        color: #ffa700;
     }
 
     @media screen and (max-width:500px){
@@ -543,3 +552,294 @@
         }
      
     }
+
+/**********CONTACT*********/
+
+    .contact{
+        background: #ffa700;
+        padding: 5rem 0;
+        text-align: center;
+    }
+    .contact .contact__wrapper h3{
+        color: #2b2b2b;
+        font-weight: 750;
+        font-size: 2.5rem;
+    }
+    .contact .contact__wrappper p{
+        color: #2b2b2b;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .contact a#contact__btn{
+        margin: 3rem 0;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width:500px){
+        .contact .contact__wrapper{
+            display: block;
+        }
+
+        .contact .contact__wrapper h3{
+            font-size: 1.7rem;
+            margin: 1rem 1rem;
+            text-align: center;
+        }
+        .contact .contact__wrapper p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+     
+    }
+
+
+/**********FOOTER**********/
+    
+    .footer{
+        background: #2b2b2b;
+        padding: 5rem 0;
+    }
+
+    .footer .footer__wrapper{
+        display: flex;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem ;
+    }
+
+    .footer .footer__item i{
+        color: #ffffff;
+        font-size: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+    }  
+
+    .footer .footer__wrapper p{
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********ABOUT PAGE**********/
+
+.aboutpage{
+    background: #ffffff;
+    padding-top: 8rem;
+}
+.aboutpage .aboutpage__wrapper{
+    padding-top: 15rem;
+}
+.aboutpage .aboutpage__text{
+    margin-left: 0;
+}
+.aboutpage .aboutpage__text h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    max-width: 50rem;
+    line-height: 1.2;
+}
+.aboutpage .aboutpage__text h2{
+    color: #ffa700;
+    font-size: 9rem;
+    font-weight: 800;
+    max-width: 50rem;
+    line-height: 1.2;
+}
+.aboutpage .aboutpage__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5rem 0;
+}
+.aboutpage .aboutpage__text p{
+    max-width: 50rem;
+    text-align: justify;
+    margin: 3rem 0;
+    font-size: 1.5rem;
+} 
+
+.media{
+    color: #ffa700;
+    font-size: 2rem;
+    display: flex;
+}
+.media .fa-facebook:hover{
+    color: #2b2b2b;
+}
+.media .fa-twitter:hover{
+    color: #2b2b2b;
+}
+.media .fa-instagram:hover{
+    color: #2b2b2b;
+}
+.media .fa-youtube:hover{
+    color: #2b2b2b;
+}
+.aboutpage .chevron{
+    color: #ffa700;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+@media screen and (max-width:500px){
+    .aboutpage .aboutpage__wrapper{
+        flex-direction: column-reverse;
+    }
+    .aboutpage img{
+        margin-left: 0;
+        width: 20rem;
+        margin-bottom: 3rem;
+    }
+    .aboutpage .aboutpage__text{
+        text-align: center;
+    }
+
+    .aboutpage .aboutpage__text h1{
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+    .aboutpage .aboutpage__text h2{
+        max-width: fit-content;
+        font-size: 3rem;
+        margin: 0 auto;
+    }
+    .aboutpage .aboutpage__text p{
+        max-width: fit-content;
+        margin-bottom: 0 auto;
+        text-align: justify;
+    }
+    .aboutpage .aboutpage__text .media{
+       align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+/*********MY PROJECT**********/
+.myproj{
+    background: #2b2b2b;
+    padding: 8rem 8rem; 
+}
+.proj__text h1{
+    font-size: 5rem;
+    color: #ffa700;
+    font-weight: 800;
+}
+.proj__text p{
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 7rem;
+}
+.card{
+    background: #ffffff;
+    border-radius: 5rem ;
+}
+.proj__title{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.card img{
+    width: 100%;
+    border-radius: 4rem;
+}
+.card h3{
+    color: #ffa700;
+    padding: 0 2rem;
+    font-weight: 800;
+}
+.card p{
+    padding: 4rem 2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width:500px){
+    .proj__title{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 5rem;
+    }
+
+
+}
+ 
+
+
+/**********CONTACT*********/
+
+.contact{
+    background: #ffa700;
+    padding: 5rem 5rem;
+    text-align: center;
+}
+.contact .contact__wrapper h3{
+    color: #2b2b2b;
+    font-weight: 750;
+    font-size: 2.5rem;
+}
+.contact .contact__wrappper p{
+    color: #2b2b2b;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.contact a#contact__btn{
+    margin: 3rem 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:500px){
+  
+ 
+}
+
+
+/**********FOOTER**********/
+    
+.footer{
+    background: #2b2b2b;
+    padding: 1.5rem 0;
+}
+
+.footer .footer__wrapper{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer__wrapper .media{
+    display: flex;
+    align-items: center;
+}
+.footer .footer__wrapper .media ul{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 2rem;
+}
